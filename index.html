@@ -67,7 +67,13 @@
 			font-size: 18px;
 			font-weight: bold;
 			margin-top: 20px;
-			cursor: pointer;…[omitted]
+			cursor: pointer;
+		}
+
+		button:hover {
+			background-color: #f2f2f2;
+			color: #f9d6c9;
+		}
 
 	</style>
 </head>
@@ -80,60 +86,41 @@
 	<nav>
 		<ul>
 			<li><a href="#me">Me</a></li>
-			<li><a href="#education">Education</a></li>
 			<li><a href="#experience">Experience</a></li>
 			<li><a href="#projects">Projects</a></li>
 			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</nav>
 
-	<section id="me">
-		<!-- Me kısmına ait içerikleri buraya ekleyebilirsin -->
-	</section>
+    <section>
+        <p>Bu kişisel web sitesi, Batuhan Sarıhan'ın deneyimlerini, projelerini ve iletişim bilgilerini paylaşmak için oluşturulmuştur.</p>
+    </section>
 
-	<section id="education">
-        <h2>Education</h2>
-        <p>Education kısmına ait içerikleri buraya ekleyebilirsin.</p>
-        <p>Buraya bir <a href="#">link</a> de ekleyebilirsin.</p>
+    <section id="me">
+        <!-- Me kısmına ait içerikleri buraya ekleyebilirsin -->
     </section>
 
     <section id="experience">
-        <h2>Experience</h2>
-        <p>Experience kısmına ait içerikleri buraya ekleyebilirsin.</p>
-        <p>Buraya bir <a href="#">link</a> de ekleyebilirsin.</p>
+        <!-- Experience kısmına ait içerikleri buraya ekleyebilirsin -->
     </section>
 
     <section id="projects">
-        <h2>Projects</h2>
-        <p>Projects kısmına ait içerikleri buraya ekleyebilirsin.</p>
-        <p>Buraya bir <a href="#">link</a> de ekleyebilirsin.</p>
+        <!-- Projects kısmına ait içerikleri buraya ekleyebilirsin -->
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <!-- Education kısmına ait içerikleri buraya ekleyebilirsin -->
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>Telefon numarası: +90 555 555 55 55</p>
-        <p>E-posta adresi: batuhan.sarihan@example.com</p>
-        <p>LinkedIn hesabı: <a href="#">linkedin.com/in/batuhan-sarihan</a></p>
-        <p>GitHub hesabı: <a href="#">github.com/batuhan-sarihan</a></p>
+        <p>Phone number: +90-507-362-6677</p>
+        <p>Email address: batuhan.sarihan@hotmail.com</p>
+        <p>LinkedIn profile: <a href="https://www.linkedin.com/in/batuhansarihan//">https://www.linkedin.com/in/batuhan-sarihan/</a></p>
+        <p>GitHub profile: <a href="https://https://github.com/bbatus">https://github.com/batuhan-sarihan</a></p>
+        <button onclick="window.open('resume.pdf')">Download Resume</button>
     </section>
-
-    <button onclick="window.open('path/to/resume.pdf')">Download Resume</button>
-
-    <script>
-        var buttons = document.getElementsByTagName("button");
-        for (var i = 0; i < buttons.length; i++) {
-            buttons[i].addEventListener("mouseover", function() {
-                this.style.backgroundColor = "#f2f2f2";
-                this.style.color = "#333";
-                this.style.boxShadow = "0px 5px 10px rgba(0,0,0,0.3)";
-            });
-            buttons[i].addEventListener("mouseout", function() {
-                this.style.backgroundColor = "#f9d6c9";
-                this.style.color = "#333";
-                this.style.boxShadow = "0px 5px 10px rgba(0,0,0,0.1)";
-            });
-        }
-    </script>
 
 </body>
 
