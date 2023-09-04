@@ -1,16 +1,86 @@
+Kopyala
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
 	<title>Batuhan Sarıhan</title>
 	<style>
-		/* Buraya CSS kodlarını yazabilirsin */
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+
+		header {
+			background-color: #f9d6c9;
+			padding: 20px;
+			text-align: center;
+			border-bottom: 1px solid #ccc;
+		}
+
+		header h1 {
+			font-family: 'Glowen Modern Luxury Fashion Font';
+			margin: 0;
+			color: #333;
+			font-size: 36px;
+			text-shadow: 2px 2px #f2f2f2;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			background-color: #f9d6c9;
+			overflow: hidden;
+			border-bottom: 1px solid #ccc;
+		}
+
+		nav li {
+			float: left;
+		}
+
+		nav li a {
+			display: block;
+			padding: 20px;
+			color: #333;
+			text-align: center;
+			text-decoration: none;
+			font-size: 18px;
+			font-weight: bold;
+			transition: all 0.3s ease-in-out;
+		}
+
+		nav li a:hover {
+			background-color: #f2f2f2;
+			color: #f9d6c9;
+			border-radius: 5px;
+		}
+
+		button {
+			background-color: #f9d6c9;
+			color: #333;
+			border-radius: 5px;
+			padding: 10px 20px;
+			border: none;
+			font-size: 18px;
+			font-weight: bold;
+			margin-top: 20px;
+			cursor: pointer;
+			transition: all 0.3s ease-in-out;
+		}
+
+		button:hover {
+			background-color: #333;
+			color: #f9d6c9;
+		}
+
 	</style>
 </head>
 
 <body>
 	<header>
-		<h1 style="font-family: 'Glowen Modern Luxury Fashion Font';">Batuhan Sarıhan</h1>
+		<h1>Batuhan Sarıhan</h1>
 	</header>
 
 	<nav>
@@ -23,20 +93,37 @@
 	</nav>
 
 	<section id="me">
-		<!-- Me kısmına ait içerikleri buraya ekleyebilirsin -->
-	</section>
+        <h2>About Me</h2>
+        <p>Merhaba, ben Batuhan Sarıhan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel justo in ligula vestibulum luctus. Nam bibendum urna euismod, bibendum nisl vel, aliquet tellus. Morbi scelerisque odio id nibh tincidunt, nec ultrices turpis ornare. Integer nec odio sed mi posuere rhoncus sit amet in velit. Donec auctor enim eu arcu ullamcorper, vitae lobortis mi gravida. Nullam quis iaculis sapien.</p>
 
-	<section id="experience">
-		<!-- Experience kısmına ait içerikleri buraya ekleyebilirsin -->
-	</section>
+        <button>Download Resume</button>
+    </section>
 
-	<section id="projects">
-		<!-- Projects kısmına ait içerikleri buraya ekleyebilirsin -->
-	</section>
+    <section id="experience">
+        <h2>Experience</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel justo in ligula vestibulum luctus. Nam bibendum urna euismod, bibendum nisl vel, aliquet tellus. Morbi scelerisque odio id nibh tincidunt, nec ultrices turpis ornare. Integer nec odio sed mi posuere rhoncus sit amet in velit. Donec auctor enim eu arcu ullamcorper, vitae lobortis mi gravida. Nullam quis iaculis sapien.</p>
+    </section>
 
-	<section id="contact">
-		<!-- Contact kısmına ait içerikleri buraya ekleyebilirsin -->
-	</section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel justo in ligula vestibulum luctus. Nam bibendum urna euismod, bibendum nisl vel, aliquet tellus. Morbi scelerisque odio id nibh tincidunt, nec ultrices turpis ornare. Integer nec odio sed mi posuere rhoncus sit amet in velit. Donec auctor enim eu arcu ullamcorper, vitae lobortis mi gravida. Nullam quis iaculis sapien.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button>Send Message</button>
+        </form>
+    </section>
 
 </body>
 
